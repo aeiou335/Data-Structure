@@ -2,7 +2,7 @@ import math
 # We just assume N>1 and there isn't exists the list like [1, 3, 5] and k = 2
 def two_differ(num, target, total_num):
 	count = 0
-	diff = [0]
+	diff = []
 	for i in range(total_num):
 		if num[i] in diff:
 			print (num[i], abs(target - num[i]))
