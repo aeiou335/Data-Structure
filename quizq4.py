@@ -11,7 +11,7 @@ def two_differ(num, target, total_num):
 		# read the smallest number first. Then we add 
 		# (the number + target)  into the list.
 		# After that if we find num[i] is in the list, then it means
-		# the num[i] plus the number we have read before will 
+		# the num[i] minus the number we have read before will 
 		# equal to the target number.
 		else:
 			diff.append (abs(target + num[i]))
