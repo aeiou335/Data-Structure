@@ -4,7 +4,6 @@ def two_differ(num, target, total_num):
 	count = 0
 	diff = [0]
 	for i in range(total_num):
-		# we 
 		if num[i] in diff:
 			print (num[i], abs(target - num[i]))
 			count += 1
