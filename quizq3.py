@@ -20,7 +20,7 @@ def integers_between_sets(set_a, set_b):
 	# First, it needs to be the factor of the gcd of set b.
 	# Second, it needs to be the multiple of the lcm of set a.
 	for i in range(lcm_of_set_a, int(gcd_of_set_b/2)+1):
-		if gcd_of_set_b % i == 0 and lcm_of_set_a % i == 0:
+		if gcd_of_set_b % i == 0 and i % lcm_of_set_a == 0:
 			num.append(i)
 
 	print (num)
