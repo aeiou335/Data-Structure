@@ -1,3 +1,9 @@
+#Given a list of N integers, write code to count the number of pairs
+#in this list whose difference is exactly K.
+#For example, suppose N=4, K=3 and the list is [1, 3, 4, 6].
+#Then the number of pairs is 2, namely [1,4] and [3,6].
+
+
 import math
 # We just assume N>1 and there isn't exists the list like [1, 3, 5] and k = 2
 def two_differ(num, target, total_num):
